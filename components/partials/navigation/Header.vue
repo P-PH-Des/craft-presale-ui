@@ -223,12 +223,10 @@ const isMenuOpen = ref<boolean>(false)
 const title = ref<string>(collection)
 const externalLinks = ref<ExternalLink[]>([
   { name: 'Home', url: 'https://craftydroidz.com' },
-  { name: 'Guide', url: 'https://medium.com/@craftnetwork/tutorial-how-to-mint-an-nft-on-a-launchpad-presale-671914a5b3dd' },
   { name: 'Marketplace', url: `https://craft.network/collection/${scoreAddress}` },
 ])
 const socialLinks = ref<SocialLink[]>([
   { icon: 'Logo/Discord', url: 'https://discord.gg/mumR3YKb', color: '#667CD3' },
   { icon: 'Logo/Twitter', url: '', color: '#6FC4FE' },
-  { icon: 'Logo/Telegram', url: '', color: '#00C0F1' },
 ])
 </script>
